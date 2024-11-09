@@ -1,0 +1,14 @@
+[Event "Live Chess"]
+[Site "Chess.com"]
+[Date "2021.02.19"]
+[Round "-"]
+[White "Ha312"]
+[Black "Thomassina"]
+[Result "1-0"]
+[WhiteElo "2126"]
+[BlackElo "2188"]
+[TimeControl "600"]
+[EndTime "10:54:21 PST"]
+[Termination "Ha312 won by checkmate"]
+
+1. d4 Nf6 2. c4 e6 3. Nc3 Bb4 4. Bg5 c5 5. Nf3 h6 6. Bxf6 Qxf6 7. e3 cxd4 8. exd4 O-O 9. Qb3 a5 10. a3 Bxc3+ 11. Qxc3 Nc6 12. Bd3 d5 13. c5 g5 14. h3 Bd7 15. O-O Rfb8 16. b4 axb4 17. axb4 Ne7 18. b5 Nf5 19. Ne5 Be8 20. Rfe1 h5 21. Nf3 g4 22. Ne5 gxh3 23. gxh3 Nh4 24. Re3 Kf8 25. Rg3 Nf5 26. Rxa8 Rxa8 27. Bxf5 Qxf5 28. c6 Qb1+ 29. Kh2 Qxb5 30. c7 f6 31. c8=Q Rxc8 32. Qxc8 fxe5 33. Qxe6 Bf7 34. Qxe5 Qd7 35. Qh8+ Ke7 36. Re3+ Kd6 37. Qf8+ Kc6 38. Qc5# 1-0

@@ -1,0 +1,14 @@
+[Event "Live Chess"]
+[Site "Chess.com"]
+[Date "2021.02.19"]
+[Round "-"]
+[White "RUSTAM693"]
+[Black "Ha312"]
+[Result "1-0"]
+[WhiteElo "2014"]
+[BlackElo "2115"]
+[TimeControl "600"]
+[EndTime "11:31:04 PST"]
+[Termination "RUSTAM693 won by checkmate"]
+
+1. e4 c5 2. Nf3 d6 3. d4 cxd4 4. Nxd4 Nf6 5. Nc3 g6 6. Bc4 Bg7 7. h3 O-O 8. O-O Nc6 9. Be3 Nxd4 10. Bxd4 Bd7 11. Qd2 b5 12. Bd3 e5 13. Be3 b4 14. Ne2 Bc6 15. f3 d5 16. exd5 Nxd5 17. Bc5 Re8 18. Be4 Qa5 19. Bf2 Rad8 20. Qe1 f5 21. Bxd5+ Qxd5 22. Qxb4 Rb8 23. Qa3 e4 24. Nc3 Qc4 25. fxe4 Bxc3 26. Qxc3 Qxe4 27. Qg3 Rxb2 28. Rfe1 Qxc2 29. Rxe8+ Bxe8 30. Bd4 Rb7 31. Qe5 Qe4 32. Qh8+ Kf7 33. Qxh7+ Ke6 34. Qg8+ Bf7 35. Qc8+ Rd7 36. Bf2 Qd5 37. Re1+ Kf6 38. Qh8+ Kg5 39. Qh4# 1-0

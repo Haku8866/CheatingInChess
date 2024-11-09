@@ -1,0 +1,34 @@
+[Event "Live Chess"]
+[Site "Chess.com"]
+[Date "2022.12.19"]
+[Round "?"]
+[White "Naroditsky, Daniel"]
+[WhiteTitle "GM"]
+[Black "Cheater"]
+[Result "0-1"]
+[ECO "B12"]
+[WhiteElo "1429"]
+[BlackElo "1923"]
+[TimeControl "900+10"]
+[EndTime "23:37:52 PST"]
+[Termination "Cheater won by checkmate"]
+
+1. e4 {[%timestamp 17]} 1... c6 {[%timestamp 57]} 2. d4 {[%timestamp 82]} 2...
+d5 {[%timestamp 38]} 3. f3 {[%timestamp 288]} 3... e6 {[%timestamp 514]} 4. Nc3
+{[%timestamp 544]} 4... Bb4 {[%timestamp 176]} 5. a3 {[%timestamp 451]} 5...
+Bxc3+ {[%timestamp 74]} 6. bxc3 {[%timestamp 52]} 6... dxe4 {[%timestamp 89]} 7.
+Nh3 {[%timestamp 430]} 7... Qa5 {[%timestamp 331]} 8. Bb2 {[%timestamp 402]}
+8... Nf6 {[%timestamp 35]} 9. fxe4 {[%timestamp 495]} 9... Nxe4 {[%timestamp
+137]} 10. Bd3 {[%timestamp 502]} 10... Nf6 {[%timestamp 66]} 11. O-O
+{[%timestamp 78]} 11... b6 {[%timestamp 128]} 12. c4 {[%timestamp 877]} 12...
+Nbd7 {[%timestamp 193]} 13. Qf3 {[%timestamp 299]} 13... Bb7 {[%timestamp 151]}
+14. Qg3 {[%timestamp 159]} 14... O-O-O {[%timestamp 265]} 15. Qxg7 {[%timestamp
+1055]} 15... Rhg8 {[%timestamp 95]} 16. Qxf7 {[%timestamp 17]} 16... Rde8
+{[%timestamp 147]} 17. Bxh7 {[%timestamp 1314]} 17... Nxh7 {[%timestamp 149]}
+18. Qxh7 {[%timestamp 20]} 18... c5 {[%timestamp 167]} 19. Rf2 {[%timestamp
+302]} 19... Nf6 {[%timestamp 269]} 20. Qd3 {[%timestamp 294]} 20...
+cxd4 {[%timestamp 221]} 21. Bxd4 {[%timestamp 16]} 21... Ne4 {[%timestamp 131]}
+22. Re2 {[%timestamp 80]} 22... e5 {[%timestamp 4785]} 23. Bb2 {[%timestamp 40]}
+23... Rd8 {[%timestamp 96]} 24. Qe3 {[%timestamp 44]} 24... Nd2 {[%timestamp
+198]} 25. Kh1 {[%timestamp 1683]} 25... Nxc4 {[%timestamp 97]} 26. Qc3
+{[%timestamp 213]} 26... Bxg2+ {[%timestamp 596]} 0-1
