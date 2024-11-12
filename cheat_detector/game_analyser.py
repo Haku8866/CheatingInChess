@@ -88,16 +88,16 @@ class GameAnalyser():
     # Multi depth analysis function, generates an evaluation levels vector 'raw_levels'
     def iterative_analysis(self, played:chess.Board, move:int, best_levels:list[float]=None,
                            show:bool=False, played_move:chess.Move=None):
+        # Stop if the game is drawn or won/lost
+        if played.is_game_over():
+            return np.ones(self.sf_depth), 0, played, 0
+        
         raw_levels = np.zeros(self.sf_depth)
         pos_eval = 0
         pos_move = None
-        results = self.sf.analysis(played, limit=chess.engine.Limit(time=10))
         prev_depth = 0
         changes = -1
-        
-        # Stop if the game is drawn or won/lost
-        if played.is_game_over():
-            return np.ones(self.sf_depth)*best_levels[-1], best_levels[-1], played, 0
+        results = self.sf.analysis(played, limit=chess.engine.Limit(time=10))
         
         # Each 'r' is an 'info' line in the UCI output
         for r in results:
@@ -162,7 +162,7 @@ class GameAnalyser():
                         self.update_graph([plot], ["w--"], [-biggest, biggest])
 
                 # If we have any reason to end analysis early we can do so by breaking
-                if depth == self.sf_depth or abs(pos_eval) > 1000 or played.is_game_over():
+                if depth == self.sf_depth or abs(pos_eval) > 1000:
                     break
         # If evaluation ends early, extrapolate the rest of the data
         if depth != self.sf_depth:

@@ -87,6 +87,10 @@ def mate_complexity(sf:chess.engine.SimpleEngine, best_eval:float, board:chess.B
 
 # Calculate the length of a tactical sequence composed of only forced moves
 def getLength(sf:chess.engine.SimpleEngine, board:chess.Board):
+    # Check if the game is over
+    if board.is_game_over():
+        return 0
+
     # Analyse the top two lines briefly
     result = sf.analyse(board, chess.engine.Limit(time=0.5), multipv=2)
 
